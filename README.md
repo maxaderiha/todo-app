@@ -12,3 +12,4 @@ yarn or yarn install
 ``` 
 yarn start
 ```
+## Or go to this [link](https://maxaderiha.github.io/todo-app) for see the app
