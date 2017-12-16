@@ -1,0 +1,15 @@
+.add-task-form__input {
+    width: calc(100% - 60px);
+}
+
+.add-task-form__btn {
+    width: 50px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.add-task-form-wrap {
+    align-self: flex-end;
+    width: 600px;
+    margin-right: 65px;
+}

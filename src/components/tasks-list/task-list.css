@@ -1,0 +1,21 @@
+.tasks-list-wrap {
+    position: relative;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.tasks-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.tasks-list__item:not(:last-child) {
+    border-bottom: 1px solid #BDBDBD;
+}

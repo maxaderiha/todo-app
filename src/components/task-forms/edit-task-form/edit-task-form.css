@@ -1,0 +1,42 @@
+.edit-task-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.edit-task-form__btn-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 265px;
+    margin-bottom: 20px;
+}
+
+.edit-task-form__btn {
+    height: 45px;
+    padding: 10px 20px;
+}
+
+.edit-task-form__input {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.edit-task-form__indicator {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.edit-task-form__textarea {
+    width: 100%;
+    height: 500px;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    resize: none;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+}

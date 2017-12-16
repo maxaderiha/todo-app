@@ -1,0 +1,35 @@
+html {
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.btn, .btn_fill {
+    font-size: 1.2rem;
+    color: #03A9F4;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #03A9F4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_fill {
+    color: #ffffff;
+    background-color: #03A9F4;
+    border: 1px solid #03A9F4;
+}
+
+.clear-fix::after {
+    display: table;
+    clear: both;
+    content: "";
+}

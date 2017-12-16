@@ -1,0 +1,46 @@
+.modal-category-form-overlay {
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(250, 250, 250, 0.75);
+}
+
+.modal-category-form {
+    position: relative;
+    margin: auto;
+    padding: 15px;
+    width: 400px;
+    min-height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, .2);
+    background-color: #ffffff;
+}
+
+.modal-category-form h2{
+    color: #212121;
+}
+
+.modal-category-form__input {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.modal-category-form__btn {
+    float: right;
+    height: 45px;
+    padding: 10px 20px;
+}
+
+.modal-category-form__btn:first-of-type {
+    margin-left: 15px;
+}
+
+.modal-category-form__btn-thumb {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}

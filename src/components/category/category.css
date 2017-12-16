@@ -1,0 +1,67 @@
+.category {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 65px;
+    height: 33px;
+}
+
+.category__title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    line-height: 32px;
+    margin: 0;
+    color: #212121;
+    text-decoration: none;
+}
+
+.category__title_active {
+    color: #03A9F4;
+}
+
+.category__left-thumb {
+    display: inline-block;
+    height: 30px;
+}
+
+.category__right-thumb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 31px;
+    min-width: 30px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon-add, .icon-del, .icon-edit {
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+.icon-chevron_close {
+    position: absolute;
+    left: 6px;
+    top: 8px;
+    transform: rotate(-90deg);
+}
+
+.icon-chevron_open {
+    position: absolute;
+    left: 6px;
+    top: 8px;
+}
+
+.category__icon {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.category__icon:hover {
+    opacity: 1;
+}

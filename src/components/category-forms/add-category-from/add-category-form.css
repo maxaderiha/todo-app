@@ -1,0 +1,15 @@
+.category-form-wrap {
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.add-category-form__input {
+    width: calc(100% - 60px);
+}
+
+.add-category-form__btn {
+    width: 50px;
+    height: 35px;
+    margin-left: 10px;
+}

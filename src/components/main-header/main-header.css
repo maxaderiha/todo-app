@@ -1,0 +1,26 @@
+.main-header {
+    position: relative;
+    z-index: 1;
+    padding: 0 30px 10px 30px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03A9F4;
+    box-shadow: 0 1px 7px 2px rgba(0, 0, 0, .2);
+}
+
+.main-header__title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.progress-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+}
